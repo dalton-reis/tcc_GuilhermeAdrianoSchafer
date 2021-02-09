@@ -1,0 +1,19 @@
+-----------------------------------------
+Execução BackEnd
+-----------------------------------------
+1 - Extrair o arquivo comandaDigitalBaresERestaurantesBackend-master.zip
+2 - Abrir o arquivo "ComandaDigitalBaresERestaurantes.sln" em um Visual Studio 2019 ou superior
+3 - Realizar o restore das Nuget packages
+4 - Colocar o projeto "ComandaDigitalBaresERestaurantes.WebApi" como principal (caso não esteja)
+5 - Mudar a connection string no arquivo "appsettings.json" em DatabaseConnection
+6 - Executar o projeto
+Obs.: A base de dados a ser utilizada precisa ser uma base SQL Server para não ocorreu nenhum problema na criação das tabelas.
+-----------------------------------------
+Execução FrontEnd
+-----------------------------------------
+1- Extrair o arquivo comandaDigital-master.zip
+2 - Abrir o diretorio no Visual Studio Code
+3 - No terminal do Visual Studio Code, executar o comando "npm install"
+4 - Pesquisar pelo texto "https://comandadigitalbackend.azurewebsites.net" e substituir pela URL do backend
+5 - Executar a aplicação via "Npm Scripts > web" 
+Obs.: Necessario ter o NodeJs instalado no computador.
